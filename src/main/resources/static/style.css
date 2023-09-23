@@ -1,0 +1,93 @@
+body {
+    color: #2F4F4F;
+    background-color: blanchedalmond;
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* nadpis hlavičky */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* ostatní nadpisy */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    color: saddlebrown;
+}
+
+.hlavicka {
+    padding: 15px 15px;
+    background-color: #39631f;
+    text-align: center;
+    color: #c4c2b0;
+}
+
+.menu {
+    background-color: #a5822a;
+    margin: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    color: #442209;
+    font-weight: bold;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    color: saddlebrown;
+}
+
+section {
+    padding: 40px 10%;
+    overflow: auto;
+}
+
+.fotogalerie {
+    background-color: #eeebd7;
+}
+
+/* úprava obrázků */
+.foto-omne {
+    width: 140px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border-radius: 45%;
+}
+
+.fotogalerie img {
+    width: 32%;
+    border-radius: 10px;
+    border: 2px solid #442209;
+}
+
+
+.foto-kontakt {
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.paticka {
+    padding: 5px 0;
+    margin-top: 0;
+    background-color: #39631f;
+    text-align: center;
+    color: #c4c2b0;
+}
